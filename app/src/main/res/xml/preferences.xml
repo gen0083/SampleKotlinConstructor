@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <EditTextPreference
+        android:key="text_preference"
+        android:title="Text preference"
+        android:defaultValue="text"
+        android:summary="text"
+        />
+
+    <jp.gcreate.sample.samplekotlinconstructor.preference.EditIntPreference
+        android:key="int_preference"
+        android:title="Int Preference"
+        android:defaultValue="1"
+        android:summary="1"
+        android:inputType="number"
+        />
+
+    <jp.gcreate.sample.samplekotlinconstructor.preference.EditIntOverloadsPreference
+        android:key="int_overloads_preference"
+        android:title="Int Overloads Preference"
+        android:defaultValue="2"
+        android:summary="2"
+        android:inputType="number"
+        />
+
+</PreferenceScreen>
